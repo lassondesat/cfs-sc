@@ -908,7 +908,7 @@ void SC_ProcessCommand (CFE_SB_MsgPtr_t CmdPacket)
 void SC_TableManageCmd(CFE_SB_MsgPtr_t CmdPacket)
 {
     int32 ArrayIndex;
-    int32 TableID = (int32) ((CFE_TBL_NotifyCmd_t *) CmdPacket)->Parameter;
+    int32 TableID = (int32) ((CFE_TBL_NotifyCmd_t *) CmdPacket)->Payload.Parameter;
 
     /* Manage selected table as appropriate for each table type */
     if ((TableID >= SC_TBL_ID_ATS_0) &&
