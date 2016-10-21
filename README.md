@@ -1,6 +1,6 @@
 # cFS: Stored Command
 
-[![GitHub release](https://img.shields.io/github/release/yusend/cfs-sc.svg)](https://github.com/yusend/cfs-sc/releases)
+[![GitHub release](https://img.shields.io/github/release/lassondesat/cfs-sc.svg)](https://github.com/lassondesat/cfs-sc/releases)
 
 * [Original README](cfs-sc-app-OSS-readme.txt)
 
@@ -30,5 +30,5 @@ predetermined times. SC supports both Absolute Time tagged command Sequences
 
 * https://sourceforge.net/projects/cfs-sc/
 
-[osal]: https://github.com/yusend/osal
-[cfe]: https://github.com/yusend/coreflightexec
+[osal]: https://github.com/lassondesat/osal
+[cfe]: https://github.com/lassondesat/coreflightexec
